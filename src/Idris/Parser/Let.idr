@@ -3,8 +3,10 @@ module Idris.Parser.Let
 import Idris.Syntax
 import Text.Bounded
 
-import Data.Either
-import Data.List1
+import Compat.Data.Either
+import Compat.Data.List1
+import Compat.Prelude.Interfaces
+import Compat.Prelude.Types
 
 import Utils.String
 

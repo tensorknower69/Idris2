@@ -6,9 +6,9 @@ import Core.TT
 import TTImp.TTImp
 import TTImp.Utils
 
-import Control.Monad.State
+import Compat.Control.Monad.State
 
-import Data.List
+import Compat.Data.List
 
 %default covering
 

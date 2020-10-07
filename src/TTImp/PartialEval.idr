@@ -17,7 +17,7 @@ import TTImp.Unelab
 
 import Utils.Hex
 
-import Data.List
+import Compat.Data.List
 import Data.NameMap
 
 %default covering

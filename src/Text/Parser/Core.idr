@@ -1,7 +1,7 @@
 module Text.Parser.Core
 
 import Data.Bool.Extra
-import Data.List
+import Compat.Data.List
 import public Control.Delayed
 import public Text.Bounded
 

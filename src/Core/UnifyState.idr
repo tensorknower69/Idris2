@@ -13,7 +13,7 @@ import Core.TTC
 import Utils.Binary
 
 import Data.IntMap
-import Data.List
+import Compat.Data.List
 import Data.NameMap
 import Data.StringMap
 

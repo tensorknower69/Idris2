@@ -27,8 +27,9 @@ import TTImp.Utils
 
 import Utils.Shunting
 
-import Control.Monad.State
-import Data.List
+import Compat.Control.Monad.State
+import Compat.Data.List
+import Compat.Prelude.Basics
 
 -- Convert high level Idris declarations (PDecl from Idris.Syntax) into
 -- TTImp, recording any high level syntax info on the way (e.g. infix

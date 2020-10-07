@@ -9,13 +9,13 @@ import Core.Metadata
 import Core.Options
 import Core.Unify
 
-import Data.List
+import Compat.Data.List
 import Data.Maybe
 import Data.So
 import Data.StringMap
-import Data.Strings
+import Compat.Data.Strings
 import Data.StringTrie
-import Data.These
+import Compat.Data.These
 
 import Parser.Package
 import System
@@ -37,6 +37,8 @@ import Idris.SetOptions
 import Idris.Syntax
 import Idris.Version
 import IdrisPaths
+
+import Compat.Prelude.Interfaces
 
 %default covering
 
@@ -451,7 +453,7 @@ clean pkg opts -- `opts` is not used but might be in the future
                                   in
                                 insertWith (reverse ks) (maybe [v] (v::)) trie) empty toClean
          foldWithKeysC (deleteFolder builddir)
-                       (\ks => map concat . traverse (deleteBin builddir ks))
+                       (\ks => Core.map concat . traverse (deleteBin builddir ks))
                        pkgTrie
          deleteFolder builddir []
          maybe (pure ()) (\e => delete (outputdir </> e))

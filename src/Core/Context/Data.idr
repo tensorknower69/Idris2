@@ -6,7 +6,7 @@ import Core.Context
 import Core.Context.Log
 import Core.Normalise
 
-import Data.List
+import Compat.Data.List
 import Data.Maybe
 
 %default covering

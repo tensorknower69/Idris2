@@ -3,8 +3,8 @@ module Core.Core
 import Core.Env
 import Core.TT
 
-import Data.List
-import Data.List1
+import Compat.Data.List
+import Compat.Data.List1
 import Data.Vect
 import Parser.Source
 import Text.PrettyPrint.Prettyprinter

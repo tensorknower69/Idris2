@@ -1,8 +1,8 @@
 module Text.Lexer
 
 import Data.Bool.Extra
-import Data.List
-import Data.Nat
+import Compat.Data.List
+import Compat.Data.Nat
 
 import public Text.Lexer.Core
 import public Text.Quantity

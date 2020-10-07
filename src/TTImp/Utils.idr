@@ -4,8 +4,8 @@ import Core.Context
 import Core.TT
 import TTImp.TTImp
 
-import Data.List
-import Data.Strings
+import Compat.Data.List
+import Compat.Data.Strings
 
 import Utils.String
 

@@ -49,12 +49,13 @@ import TTImp.Interactive.MakeLemma
 import TTImp.TTImp
 import TTImp.ProcessDecls
 
-import Data.List
+import Compat.Data.List
 import Data.Maybe
 import Data.NameMap
 import Data.Stream
 import Data.Strings
-import Text.PrettyPrint.Prettyprinter
+import Text.PrettyPrint.Prettyprinter.Doc
+import Compat.Text.PrettyPrint.Prettyprinter.Symbols
 import Text.PrettyPrint.Prettyprinter.Util
 import Text.PrettyPrint.Prettyprinter.Render.Terminal
 

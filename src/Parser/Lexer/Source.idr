@@ -2,9 +2,9 @@ module Parser.Lexer.Source
 
 import public Parser.Lexer.Common
 
-import Data.List1
-import Data.List
-import Data.Strings
+import Compat.Data.List1
+import Compat.Data.List
+import Compat.Data.Strings
 import Data.String.Extra
 import public Text.Bounded
 import Text.PrettyPrint.Prettyprinter

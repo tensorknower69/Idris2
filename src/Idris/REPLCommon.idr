@@ -12,7 +12,7 @@ import public Idris.REPLOpts
 import Idris.Syntax
 import Idris.Pretty
 
-import Data.List
+import Compat.Data.List
 import Text.PrettyPrint.Prettyprinter
 import Text.PrettyPrint.Prettyprinter.Render.Terminal
 

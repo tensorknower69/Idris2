@@ -11,7 +11,7 @@ import Core.TT
 import TTImp.TTImp
 import TTImp.Utils
 
-import Data.List
+import Compat.Data.List
 
 %default covering
 

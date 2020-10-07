@@ -2,7 +2,7 @@
 module Idris.Version
 
 import IdrisPaths
-import Data.List
+import Compat.Data.List
 
 %default total
 

@@ -6,9 +6,10 @@ import Text.PrettyPrint.Prettyprinter
 import Text.PrettyPrint.Prettyprinter.Util
 
 import Core.TT
-import Data.List
+import Compat.Data.List
 import Data.List.Views
 import Data.Strings
+import Compat.Data.Strings
 import Parser.Unlit
 import System.File
 

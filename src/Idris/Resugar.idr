@@ -10,8 +10,8 @@ import TTImp.TTImp
 import TTImp.Unelab
 import TTImp.Utils
 
-import Data.List
-import Data.List1
+import Compat.Data.List
+import Compat.Data.List1
 import Data.Maybe
 import Data.StringMap
 

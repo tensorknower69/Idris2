@@ -13,9 +13,11 @@ import Core.Value
 
 import Data.Bool.Extra
 import Data.IntMap
-import Data.List
+import Compat.Data.List
 import Data.List.Views
 import Data.NameMap
+
+import Compat.Prelude.Basics
 
 %default covering
 

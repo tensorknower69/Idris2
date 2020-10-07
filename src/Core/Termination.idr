@@ -8,10 +8,10 @@ import Core.Normalise
 import Core.TT
 import Core.Value
 
-import Control.Monad.State
+import Compat.Control.Monad.State
 
 import Data.NameMap
-import Data.List
+import Compat.Data.List
 
 %default covering
 

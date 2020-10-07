@@ -1,9 +1,10 @@
 module Idris.Pretty
 
-import Data.List
+import Compat.Data.List
 import Data.Strings
 import Control.ANSI.SGR
-import public Text.PrettyPrint.Prettyprinter
+import public Text.PrettyPrint.Prettyprinter.Doc
+import public Compat.Text.PrettyPrint.Prettyprinter.Symbols
 import public Text.PrettyPrint.Prettyprinter.Render.Terminal
 import public Text.PrettyPrint.Prettyprinter.Util
 

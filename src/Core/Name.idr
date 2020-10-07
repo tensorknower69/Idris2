@@ -1,7 +1,7 @@
 module Core.Name
 
-import Data.List
-import Data.Strings
+import Compat.Data.List
+import Compat.Data.Strings
 import Decidable.Equality
 import Text.PrettyPrint.Prettyprinter
 import Text.PrettyPrint.Prettyprinter.Util

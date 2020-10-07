@@ -3,7 +3,7 @@ module Parser.Rule.Package
 import public Parser.Lexer.Package
 import public Parser.Rule.Common
 
-import Data.List
+import Compat.Data.List
 
 import Core.Name.Namespace
 

@@ -1,6 +1,6 @@
 module Utils.Hex
 
-import Data.List
+import Compat.Data.List
 import Data.Primitives.Views
 
 %default total

@@ -1,7 +1,7 @@
 module Core.Reflect
 
 import Algebra.Semiring
-import Data.List1
+import Compat.Data.List1
 
 import Core.Context
 import Core.Env

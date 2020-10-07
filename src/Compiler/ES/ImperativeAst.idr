@@ -3,7 +3,7 @@ module Compiler.ES.ImperativeAst
 import Compiler.CompileExpr
 import public Core.TT
 import public Data.Vect
-import public Data.List
+import public Compat.Data.List
 
 mutual
   public export

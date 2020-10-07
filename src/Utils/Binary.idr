@@ -5,9 +5,9 @@ import Core.Name
 
 import Data.Buffer
 import public Data.IOArray
-import Data.List
+import Compat.Data.List
 import Data.List.Elem
-import Data.List1
+import Compat.Data.List1
 import Data.Nat
 import Data.Vect
 

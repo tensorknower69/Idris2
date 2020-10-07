@@ -20,9 +20,9 @@ import TTImp.TTImp
 import TTImp.Unelab
 import TTImp.Utils
 
-import Control.Monad.State
+import Compat.Control.Monad.State
 import Data.ANameMap
-import Data.List
+import Compat.Data.List
 import Data.NameMap
 
 %default covering

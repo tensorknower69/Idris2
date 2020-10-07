@@ -1,8 +1,8 @@
 module Core.Name.Namespace
 
-import Data.List
-import Data.List1
-import Data.Strings
+import Compat.Data.List
+import Compat.Data.List1
+import Compat.Data.Strings
 import Decidable.Equality
 import Text.PrettyPrint.Prettyprinter
 import Text.PrettyPrint.Prettyprinter.Util

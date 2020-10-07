@@ -13,7 +13,7 @@ import System
 import System.File
 
 import Data.Maybe
-import Data.Strings
+import Compat.Data.Strings
 import Data.String.Extra
 
 

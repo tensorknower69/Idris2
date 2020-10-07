@@ -10,7 +10,7 @@ import Core.TT
 import Core.TTC
 import Core.Value
 
-import Data.List
+import Compat.Data.List
 
 %default covering
 

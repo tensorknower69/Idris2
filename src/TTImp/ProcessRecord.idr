@@ -16,7 +16,7 @@ import TTImp.TTImp
 import TTImp.Unelab
 import TTImp.Utils
 
-import Data.List
+import Compat.Data.List
 
 %default covering
 

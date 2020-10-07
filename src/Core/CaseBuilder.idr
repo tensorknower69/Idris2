@@ -10,7 +10,7 @@ import Core.TT
 import Core.Value
 
 import Data.LengthMatch
-import Data.List
+import Compat.Data.List
 
 import Decidable.Equality
 

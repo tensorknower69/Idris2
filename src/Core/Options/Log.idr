@@ -1,12 +1,12 @@
 module Core.Options.Log
 
-import Data.List
-import Data.List1
+import Compat.Data.List
+import Compat.Data.List1
 import Data.Maybe
 import Data.StringMap
 import Data.StringTrie
-import Data.Strings
-import Data.These
+import Compat.Data.Strings
+import Compat.Data.These
 import Text.PrettyPrint.Prettyprinter
 
 %default total

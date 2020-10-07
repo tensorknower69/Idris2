@@ -22,7 +22,7 @@ import TTImp.TTImp
 import TTImp.Utils
 
 import Data.ANameMap
-import Data.List
+import Compat.Data.List
 import Data.Maybe
 
 %default covering

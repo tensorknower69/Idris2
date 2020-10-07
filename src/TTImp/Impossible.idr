@@ -8,7 +8,7 @@ import Core.Value
 
 import TTImp.TTImp
 
-import Data.List
+import Compat.Data.List
 
 %default covering
 

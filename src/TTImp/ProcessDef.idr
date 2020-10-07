@@ -28,12 +28,14 @@ import TTImp.Utils
 import TTImp.WithClause
 
 import Data.Either
-import Data.List
+import Compat.Data.List
 import Data.NameMap
-import Data.Strings
+import Compat.Data.Strings
 import Data.Maybe
 
 import Text.PrettyPrint.Prettyprinter
+
+import Compat.Prelude.Basics
 
 %default covering
 

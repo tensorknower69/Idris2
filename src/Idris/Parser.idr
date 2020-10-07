@@ -7,15 +7,18 @@ import        Parser.Lexer.Source
 import        TTImp.TTImp
 
 import public Text.Parser
-import        Data.Either
-import        Data.List
+import        Compat.Data.Either
+import        Compat.Data.List
 import        Data.List.Views
-import        Data.List1
+import        Compat.Data.List1
 import        Data.Maybe
-import        Data.Strings
+import        Compat.Data.Strings
 import Utils.String
 
 import Idris.Parser.Let
+
+import Compat.Prelude.Basics
+import Compat.Prelude.Interfaces
 
 %default covering
 

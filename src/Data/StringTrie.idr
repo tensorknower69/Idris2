@@ -1,6 +1,7 @@
 module Data.StringTrie
 
-import Data.These
+import Compat.Prelude.Interfaces
+import Compat.Data.These
 import Data.StringMap
 
 %default total

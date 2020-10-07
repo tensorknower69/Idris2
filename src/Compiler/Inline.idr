@@ -11,7 +11,7 @@ import Core.TT
 import Data.LengthMatch
 import Data.Maybe
 import Data.NameMap
-import Data.List
+import Compat.Data.List
 import Data.Vect
 
 %default covering

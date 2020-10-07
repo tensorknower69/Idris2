@@ -14,7 +14,7 @@ import TTImp.Elab.Check
 import TTImp.Elab.ImplicitBind
 import TTImp.TTImp
 
-import Data.List
+import Compat.Data.List
 import Data.NameMap
 
 %default covering

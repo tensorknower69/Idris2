@@ -30,7 +30,7 @@ import TTImp.Utils
 
 import Data.Bool.Extra
 import Data.Either
-import Data.List
+import Compat.Data.List
 
 %default covering
 

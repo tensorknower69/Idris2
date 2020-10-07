@@ -21,10 +21,10 @@ import Idris.Pretty
 
 import IdrisPaths
 
-import Data.List
-import Data.List1
+import Compat.Data.List
+import Compat.Data.List1
 import Data.So
-import Data.Strings
+import Compat.Data.Strings
 import System
 import System.Directory
 import System.File

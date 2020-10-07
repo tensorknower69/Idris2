@@ -15,9 +15,9 @@ import Core.TTC
 import Utils.Binary
 
 import Data.IOArray
-import Data.List
+import Compat.Data.List
 import Data.NameMap
-import Data.Strings
+import Compat.Data.Strings
 
 import System.Directory
 import System.Info

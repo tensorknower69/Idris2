@@ -14,7 +14,7 @@ import Core.Value
 import TTImp.Elab.Check
 import TTImp.TTImp
 
-import Data.List
+import Compat.Data.List
 import Data.Maybe
 
 %default covering

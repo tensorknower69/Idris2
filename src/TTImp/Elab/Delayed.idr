@@ -15,7 +15,7 @@ import TTImp.Elab.Check
 import TTImp.TTImp
 
 import Data.IntMap
-import Data.List
+import Compat.Data.List
 
 %default covering
 

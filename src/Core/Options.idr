@@ -7,9 +7,9 @@ import Core.TT
 import Utils.Binary
 import Utils.Path
 
-import Data.List
+import Compat.Data.List
 import Data.Maybe
-import Data.Strings
+import Compat.Data.Strings
 
 import System.Info
 

@@ -11,7 +11,7 @@ import Core.TTC
 import Core.UnifyState
 
 import Data.IntMap
-import Data.List
+import Compat.Data.List
 import Data.NameMap
 
 import System.File

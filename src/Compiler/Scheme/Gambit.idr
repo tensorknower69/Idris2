@@ -13,10 +13,10 @@ import Core.TT
 import Utils.Hex
 import Utils.Path
 
-import Data.List
+import Compat.Data.List
 import Data.Maybe
 import Data.NameMap
-import Data.Strings
+import Compat.Data.Strings
 import Data.Vect
 
 import System

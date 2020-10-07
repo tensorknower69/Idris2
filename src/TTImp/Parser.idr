@@ -8,11 +8,13 @@ import Parser.Source
 import TTImp.TTImp
 
 import public Text.Parser
-import        Data.List
+import        Compat.Data.List
 import        Data.List.Views
-import        Data.List1
+import        Compat.Data.List1
 import        Data.Maybe
-import        Data.Strings
+import        Compat.Data.Strings
+
+import Compat.Prelude.Basics
 
 topDecl : FileName -> IndentInfo -> Rule ImpDecl
 -- All the clauses get parsed as one-clause definitions. Collect any

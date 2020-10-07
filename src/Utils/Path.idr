@@ -1,9 +1,9 @@
 module Utils.Path
 
-import Data.List
+import Compat.Data.List
 import Data.Maybe
-import Data.Nat
-import Data.Strings
+import Compat.Data.Nat
+import Compat.Data.Strings
 import Data.String.Extra
 
 import System.Info
@@ -12,6 +12,8 @@ import Text.Token
 import Text.Lexer
 import Text.Parser
 import Text.Quantity
+
+import Text.Bounded
 
 infixr 5 </>
 infixr 7 <.>
@@ -30,7 +32,7 @@ pathSeparator = if isWindows then ';' else ':'
 ||| Windows' path prefixes of path component.
 public export
 data Volume
-  = 
+  =
   ||| Windows' Uniform Naming Convention, e.g., a network sharing
   ||| directory: `\\host\c$\Windows\System32`
   UNC String String |
@@ -40,7 +42,7 @@ data Volume
 ||| A single body of path component.
 public export
 data Body
-  = 
+  =
   ||| Represents "."
   CurDir |
   ||| Represents ".."
@@ -161,7 +163,6 @@ verbatim : Grammar PathToken True ()
 verbatim = do count (exactly 2) $ match $ PTPunct '\\'
               match $ PTPunct '?'
               match $ PTPunct '\\'
-              pure ()
 
 -- Example: \\server\share
 unc : Grammar PathToken True Volume
@@ -222,7 +223,7 @@ parsePath = do vol <- optional parseVolume
 
 ||| Parse a String into Path component.
 |||
-||| Returns the path parsed as much as possible from left to right, the 
+||| Returns the path parsed as much as possible from left to right, the
 ||| invalid parts on the right end is ignored.
 |||
 ||| Some kind of invalid path is accepted. Relaxing rules:
@@ -232,11 +233,11 @@ parsePath = do vol <- optional parseVolume
 ||| - Any characters in path body in allowed, e.g., glob like "/root/*";
 ||| - Verbatim prefix(`\\?\`) that disables the forward
 |||   slash (Windows only) is ignored.
-||| - Repeated separators are ignored, so "a/b" and "a//b" both have "a" 
+||| - Repeated separators are ignored, so "a/b" and "a//b" both have "a"
 |||   and "b" as bodies.
 ||| - Occurrences of "." are normalized away, except if they are at the
-|||   beginning of the path. For example, "a/./b", "a/b/", "a/b/". and 
-|||   "a/b" all have "a" and "b" as bodies, but "./a/b" starts with an 
+|||   beginning of the path. For example, "a/./b", "a/b/", "a/b/". and
+|||   "a/b" all have "a" and "b" as bodies, but "./a/b" starts with an
 |||   additional `CurDir` body.
 |||
 ||| ```idris example
@@ -272,7 +273,7 @@ append' l r = if isAbsolute' r || isJust r.volume
                                        hasTrailSep = r.hasTrailSep } l
 
 splitParent' : Path -> Maybe (Path, Path)
-splitParent' p 
+splitParent' p
   = case p.body of
          [] => Nothing
          (x::xs) => let parentPath = record { body = init (x::xs),
@@ -281,7 +282,7 @@ splitParent' p
                       Just (parentPath, lastPath)
 
 parent' : Path -> Maybe Path
-parent' p = map fst (splitParent' p) 
+parent' p = map fst (splitParent' p)
 
 fileName' : Path -> Maybe String
 fileName' p = findNormal (reverse p.body)
@@ -290,12 +291,12 @@ fileName' p = findNormal (reverse p.body)
     findNormal ((Normal s)::xs) = Just s
     findNormal (CurDir::xs) = findNormal xs
     findNormal _ = Nothing
-    
+
 setFileName' : (name : String) -> Path -> Path
 setFileName' name p = if isJust (fileName' p)
                          then append' (fromMaybe emptyPath $ parent' p) (parse name)
                          else append' p (parse name)
-    
+
 splitFileName : String -> (String, String)
 splitFileName name
     = case break (== '.') $ reverse $ unpack name of
@@ -452,11 +453,11 @@ setFileName name p = show $ setFileName' name (parse p)
 |||
 ||| If `extension` of the path is Nothing, the extension is added; otherwise
 ||| it is replaced.
-||| 
+|||
 ||| If the ext is empty, the extension is dropped.
 export
 (<.>) : String -> (ext : String) -> String
-(<.>) p ext = let p' = parse p 
+(<.>) p ext = let p' = parse p
                   ext = pack $ dropWhile (== '.') (unpack ext)
                   ext = if ltrim ext == "" then "" else "." ++ ext in
                 case fileName' p' of

@@ -7,8 +7,8 @@ import Core.Name
 import Core.Options
 import Utils.Path
 
-import Data.List
-import Data.Strings
+import Compat.Data.List
+import Compat.Data.Strings
 import Data.Maybe
 
 import System.Directory

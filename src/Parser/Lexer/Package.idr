@@ -6,8 +6,8 @@ import public Text.Parser
 import public Text.Bounded
 import Text.PrettyPrint.Prettyprinter
 
-import Data.List
-import Data.List1
+import Compat.Data.List
+import Compat.Data.List1
 import Data.Strings
 import Data.String.Extra
 import Utils.String

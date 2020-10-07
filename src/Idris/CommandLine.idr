@@ -6,9 +6,9 @@ import Idris.Version
 
 import Core.Options
 
-import Data.List
+import Compat.Data.List
 import Data.Maybe
-import Data.Strings
+import Compat.Data.Strings
 import Data.Either
 
 import System

@@ -8,7 +8,7 @@ import Core.TT
 import Idris.REPL
 import Idris.IDEMode.Commands
 
-import Data.List
+import Compat.Data.List
 
 %default covering
 

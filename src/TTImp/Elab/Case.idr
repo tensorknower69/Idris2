@@ -16,7 +16,7 @@ import TTImp.Elab.ImplicitBind
 import TTImp.TTImp
 import TTImp.Utils
 
-import Data.List
+import Compat.Data.List
 import Data.Maybe
 import Data.NameMap
 

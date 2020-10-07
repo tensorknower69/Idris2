@@ -21,9 +21,9 @@ import TTImp.TTImp
 
 import Yaffle.REPL
 
-import Data.List
+import Compat.Data.List
 import Data.So
-import Data.Strings
+import Compat.Data.Strings
 import System
 
 %default covering

@@ -25,7 +25,7 @@ import Idris.REPLOpts
 import Idris.Syntax
 import Idris.Pretty
 
-import Data.List
+import Compat.Data.List
 import Data.NameMap
 
 import System.File

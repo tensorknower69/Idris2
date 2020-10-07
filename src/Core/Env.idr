@@ -1,7 +1,7 @@
 module Core.Env
 
 import Core.TT
-import Data.List
+import Compat.Data.List
 
 %default total
 

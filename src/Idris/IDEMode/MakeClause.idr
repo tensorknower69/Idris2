@@ -4,9 +4,9 @@ import Core.Name
 import Parser.Lexer.Source
 import Parser.Unlit
 
-import Data.List
+import Compat.Data.List
 import Data.Nat
-import Data.Strings
+import Compat.Data.Strings
 
 %default total
 

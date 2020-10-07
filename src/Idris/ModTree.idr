@@ -19,7 +19,7 @@ import Idris.REPLCommon
 import Idris.Syntax
 import Idris.Pretty
 
-import Data.List
+import Compat.Data.List
 import Data.StringMap
 
 import System.Directory

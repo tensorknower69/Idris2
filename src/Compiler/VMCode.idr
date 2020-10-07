@@ -7,7 +7,7 @@ import Core.Context
 import Core.Core
 import Core.TT
 
-import Data.List
+import Compat.Data.List
 import Data.Maybe
 import Data.Vect
 

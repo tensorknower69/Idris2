@@ -14,7 +14,7 @@ import Utils.Binary
 
 import Data.IntMap
 import Data.IOArray
-import Data.List
+import Compat.Data.List
 import Data.NameMap
 import Data.StringMap
 

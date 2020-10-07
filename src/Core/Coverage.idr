@@ -8,7 +8,7 @@ import Core.TT
 import Core.Value
 
 import Data.Bool.Extra
-import Data.List
+import Compat.Data.List
 import Data.NameMap
 
 %default covering

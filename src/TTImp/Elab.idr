@@ -17,7 +17,7 @@ import TTImp.TTImp
 import TTImp.Unelab
 
 import Data.IntMap
-import Data.List
+import Compat.Data.List
 import Data.NameMap
 
 %default covering

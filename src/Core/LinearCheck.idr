@@ -12,7 +12,7 @@ import Core.Value
 import Core.TT
 
 import Data.Bool.Extra
-import Data.List
+import Compat.Data.List
 
 %default covering
 

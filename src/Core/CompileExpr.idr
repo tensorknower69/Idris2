@@ -6,7 +6,7 @@ import Core.FC
 import Core.Name
 import Core.TT
 
-import Data.List
+import Compat.Data.List
 import Data.NameMap
 import Data.Vect
 

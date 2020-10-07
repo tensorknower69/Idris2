@@ -13,7 +13,7 @@ import TTImp.Elab
 import TTImp.Elab.Check
 import TTImp.TTImp
 
-import Data.List
+import Compat.Data.List
 
 %default covering
 

@@ -4,8 +4,8 @@ import public Core.FC
 import public Core.Name
 
 import Data.Bool.Extra
-import Data.List
-import Data.Nat
+import Compat.Data.List
+import Compat.Data.Nat
 import Data.NameMap
 import Data.Vect
 import Decidable.Equality

@@ -6,8 +6,8 @@ module Idris.IDEMode.Parser
 import Idris.IDEMode.Commands
 
 import Data.Maybe
-import Data.List
-import Data.Strings
+import Compat.Data.List
+import Compat.Data.Strings
 import Parser.Lexer.Source
 import Parser.Source
 import Parser.Support

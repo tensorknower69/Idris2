@@ -15,10 +15,10 @@ import Core.Options
 import Core.TT
 import Core.Unify
 
-import Data.List
-import Data.List1
+import Compat.Data.List
+import Compat.Data.List1
 import Data.So
-import Data.Strings
+import Compat.Data.Strings
 
 import Idris.Desugar
 import Idris.Error
@@ -44,7 +44,7 @@ import TTImp.ProcessDecls
 
 import Utils.Hex
 
-import Data.List
+import Compat.Data.List
 import System
 import System.File
 

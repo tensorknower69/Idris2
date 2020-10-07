@@ -3,9 +3,9 @@ module Core.Hash
 import Core.CaseTree
 import Core.TT
 
-import Data.List
-import Data.List1
-import Data.Strings
+import Compat.Data.List
+import Compat.Data.List1
+import Compat.Data.Strings
 
 %default covering
 

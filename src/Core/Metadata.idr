@@ -9,7 +9,7 @@ import Core.Normalise
 import Core.TT
 import Core.TTC
 
-import Data.List
+import Compat.Data.List
 import System.File
 import Utils.Binary
 

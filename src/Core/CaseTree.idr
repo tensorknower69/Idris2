@@ -3,10 +3,11 @@ module Core.CaseTree
 import Core.TT
 
 import Data.Bool.Extra
-import Data.List
+import Compat.Data.List
 import Data.NameMap
 
-import Text.PrettyPrint.Prettyprinter
+import Text.PrettyPrint.Prettyprinter.Doc
+import Compat.Text.PrettyPrint.Prettyprinter.Symbols
 
 %default covering
 

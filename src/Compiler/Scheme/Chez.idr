@@ -14,11 +14,11 @@ import Core.TT
 import Utils.Hex
 import Utils.Path
 
-import Data.List
-import Data.List1
+import Compat.Data.List
+import Compat.Data.List1
 import Data.Maybe
 import Data.NameMap
-import Data.Strings
+import Compat.Data.Strings
 import Data.Vect
 
 import System

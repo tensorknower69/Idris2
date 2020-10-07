@@ -9,10 +9,11 @@ import Core.Normalise
 import Core.TT
 import Core.Value
 
-import Data.List
+import Compat.Data.List
 import Data.Maybe
 import Data.NameMap
 import Data.Vect
+import Compat.Data.Vect
 
 %default covering
 

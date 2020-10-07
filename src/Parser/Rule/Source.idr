@@ -5,8 +5,8 @@ import public Parser.Rule.Common
 import public Parser.Support
 
 import Core.TT
-import Data.List1
-import Data.Strings
+import Compat.Data.List1
+import Compat.Data.Strings
 
 %default total
 

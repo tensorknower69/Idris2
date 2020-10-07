@@ -9,7 +9,7 @@ import Core.Name
 import Core.TT
 
 import Data.Bool.Extra
-import Data.List
+import Compat.Data.List
 import Data.Vect
 
 import System.Info

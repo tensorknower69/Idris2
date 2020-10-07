@@ -22,7 +22,7 @@ import TTImp.ProcessTransform
 import TTImp.ProcessType
 import TTImp.TTImp
 
-import Data.List
+import Compat.Data.List
 import Data.Maybe
 import Data.NameMap
 

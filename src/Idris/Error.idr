@@ -14,17 +14,20 @@ import Idris.Pretty
 
 import Parser.Source
 
-import Data.List
-import Data.List1
+import Compat.Data.List
+import Compat.Data.List1
 import Data.List.Extra
 import Data.Maybe
 import Data.Stream
 import Data.Strings
 import Data.String.Extra
-import Text.PrettyPrint.Prettyprinter
+import Text.PrettyPrint.Prettyprinter.Doc
 import Text.PrettyPrint.Prettyprinter.Util
 import System.File
 import Utils.String
+
+import Compat.Prelude.Interfaces
+import Compat.Prelude.Types
 
 %default covering
 

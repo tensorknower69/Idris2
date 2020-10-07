@@ -2,10 +2,10 @@ module Text.Lexer.Core
 
 import public Control.Delayed
 import Data.Bool.Extra
-import Data.List
+import Compat.Data.List
 import Data.Maybe
-import Data.Nat
-import Data.Strings
+import Compat.Data.Nat
+import Compat.Data.Strings
 import public Text.Bounded
 
 %default total

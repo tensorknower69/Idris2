@@ -3,7 +3,7 @@ module Compiler.ES.RemoveUnused
 import Data.SortedSet
 import Data.SortedMap
 import Data.Vect
-import Data.List
+import Compat.Data.List
 
 import Core.CompileExpr
 import Core.Name

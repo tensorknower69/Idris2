@@ -2,7 +2,7 @@ module Compiler.ES.Imperative
 
 import public Compiler.ES.ImperativeAst
 
-import Data.List
+import Compat.Data.List
 
 import Compiler.Common
 import Compiler.CompileExpr
@@ -12,6 +12,7 @@ import public Core.Context
 import Compiler.ES.RemoveUnused
 import Compiler.ES.TailRec
 
+import Compat.Prelude.Basics
 
 mutual
   isNameUsed : Name -> NamedCExp -> Bool

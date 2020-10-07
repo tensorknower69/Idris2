@@ -18,9 +18,9 @@ import Idris.REPLOpts
 import Idris.Resugar
 import Idris.Syntax
 
-import Data.List
+import Compat.Data.List
 import Data.List.Extra
-import Data.Strings
+import Compat.Data.Strings
 import System.File
 
 %default covering

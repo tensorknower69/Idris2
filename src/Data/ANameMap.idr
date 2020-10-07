@@ -3,7 +3,7 @@ module Data.ANameMap
 
 import Core.Name
 
-import Data.List
+import Compat.Data.List
 import Data.NameMap
 import Data.StringMap
 

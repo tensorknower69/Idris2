@@ -25,9 +25,9 @@ module Text.Literate
 
 import Text.Lexer
 
-import Data.List
+import Compat.Data.List
 import Data.List.Views
-import Data.Strings
+import Compat.Data.Strings
 
 %default total
 
