@@ -39,6 +39,7 @@ modules = Control.ANSI,
 
           Data.InductionRecursion.DybjerSetzer,
 
+          Data.Order,
           Data.Int.Order,
 
           Data.Late,
